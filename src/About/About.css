@@ -1,0 +1,84 @@
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-bottom: 100px;
+}
+
+.about-title h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+  font-family: "Arial", sans-serif;
+}
+.about-sections {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-left {
+  width: 25%;
+  margin-right: 50px;
+}
+ .about-left img {
+  
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  margin: 30px;
+  border-radius: 5px;
+  border: 2px solid linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+
+ 
+}
+.about-right {
+  max-width: 300%;
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.about-para {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.about-diff-skill {
+  display: flex;
+  align-items: center;
+ 
+}
+.about-diff-skill p {
+  width: 250px;
+}
+.about-diff-skill hr {
+   height: 5px; /* Adjust height as needed */
+  border: none; /* Remove default hr border */
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  border-radius: 5px; 
+}
+.about-diff-skill:hover{
+   transform: scale(1.02);
+  transition: transform 0.5s ease-in-out; 
+   
+}
+.about-achivement {
+  display: flex;
+  margin-top: 5%;
+
+  width: 90%;
+  /* background-color: blue; */
+}
+.about-diff-achivement h1 {
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+html {
+  scroll-behavior: smooth;
+}
+

@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+}
+.desc {
+  height: 100%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.image-cont {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-cont img {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;           
+  object-position: center top; 
+}
+.desc h1 span {
+  background-color: white;
+  /* background: linear-gradient(270deg, #df8908 10%, #b415ff 100%); */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0;
+}
+.desc{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.desc h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0; /* Remove extra margin */
+  padding: 5px 0; /* Reduce padding */
+  line-height: 1.2; /* Adjust spacing */
+}
+.paragraph {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  gap: 25px;
+  font-weight: 500px;
+  font-size: 24px;
+}
+.hero-connect {
+  padding: 10px;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 100%);
+  border-radius: 25px;
+  cursor: pointer;
+}
+.hero-resume {
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+.hero-connect:hover {
+  border: 2px solid white;
+}
+.hero-resume:hover {
+  border-color: rgb(134, 82, 134);
+}
