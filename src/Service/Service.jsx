@@ -1,7 +1,8 @@
 
 import React from "react";
 import "./Service.css";
-import services_data from "../assets/Services_data/Services-data";
+import Service_data from "../Service_data/Servies_data";
+// import services_data from "../assets/Services_data/Services-data";
 
 function Service() {
   return (
@@ -12,7 +13,7 @@ function Service() {
       </div>
 
       <div className="services-container">
-        {services_data.map((services, index) => {
+        {Service_data .map((services, index) => {
           return (
             <div key={index} className="services-format">
               <h3>{services.s_no}</h3>
