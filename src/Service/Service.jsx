@@ -1,8 +1,9 @@
-import React from "react";
-import "./services.css";
-import services_data from "../assets/Services_data/services-data";
 
-function Services() {
+import React from "react";
+import "./Service.css";
+import services_data from "../assets/Services_data/Services-data";
+
+function Service() {
   return (
     <div id="services" className="services">
       <div className="services-title">
@@ -29,4 +30,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Service;

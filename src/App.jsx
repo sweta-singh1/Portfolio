@@ -7,7 +7,8 @@ import About from "./About/About";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Footer/Footer";
 import MyWork from "./MyWork/MyWork";
-import Services from "./Services/services";
+import Service from "./Service/Service";
+// import Services from "./Services/Services";
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <Services />
+      <Service />
 
       <MyWork />
       <Contact />

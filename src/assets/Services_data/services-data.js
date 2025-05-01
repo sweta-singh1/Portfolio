@@ -1,4 +1,4 @@
-const services_data =[
+const Services_data =[
     {
         s_no:"01",
         s_name:"INSERCH",
@@ -32,4 +32,4 @@ const services_data =[
     }
     ]
 
-    export default services_data;
+    export default Services_data;
